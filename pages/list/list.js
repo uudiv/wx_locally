@@ -1,52 +1,18 @@
-// pages/index/index.js
-const fetch = require('../../utils/fetch.js')
-
+// pages/list/list.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    slides: [],
-    categories: []
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
-    fetch('slides').then(res => {
-      this.setData({
-        slides: res.data
-      })
-    })
-
-    fetch('categories').then(res => {
-      this.setData({
-        categories: res.data
-      })
-    })
-
-
-
-
-    // wx.request({
-    //   url: 'https://locally.uieee.com/slides',
-    //   success: (res) => {
-    //     this.setData({
-    //       slides: res.data
-    //     })
-    //   }
-    // })
-    // wx.request({
-    //   url: 'https://locally.uieee.com/categories',
-    //   success: (res) => {
-    //     this.setData({
-    //       categories: res.data
-    //     })
-    //   }
-    // })
+    console.log(options)
   },
 
   /**
