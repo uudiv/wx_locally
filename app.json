@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/list/list",
     "pages/message/message",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/detail/detail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#3a4861",
