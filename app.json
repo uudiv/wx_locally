@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/list/list",
-    "pages/message/message",
+    "pages/messages/messages",
     "pages/profile/profile",
     "pages/detail/detail"
   ],
@@ -19,15 +19,14 @@
     "selectedColor": "#333",
     "backgroundColor": "#ffffff",
     "borderStyle": "black",
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "assets/tabs/home.png",
         "selectedIconPath": "assets/tabs/home-active.png"
       },
       {
-        "pagePath": "pages/message/message",
+        "pagePath": "pages/messages/messages",
         "text": "消息",
         "iconPath": "assets/tabs/message.png",
         "selectedIconPath": "assets/tabs/message-active.png"
